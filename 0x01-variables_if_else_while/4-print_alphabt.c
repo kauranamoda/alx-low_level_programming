@@ -7,10 +7,10 @@
  */
 int main(void)
 {
-	char letters[52] = "abcdfghijklmnoprstuvwxyz";
+	char letters[25] = "abcdfghijklmnoprstuvwxyz";
 	int i;
 
-	for (i = 0; i < 52; i++)
+	for (i = 0; i < 25; i++)
 
 	{
 		putchar(letters[i]);
