@@ -1,19 +1,22 @@
 #include <stdio.h>
-
 /**
-* main - The brain of the project
-*
-* Return: 0 (Success)
-*/
+ * main - The brain
+ *
+ * Return: 0 (Success)
+ */
 int main(void)
 {
-	char letters[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
-	for (i = 0; i < 52; i++)
+	for (i = 48; i < 58; i++)
 
 	{
-		putchar(letters[i]);
+		putchar(i);
+		if (i != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
