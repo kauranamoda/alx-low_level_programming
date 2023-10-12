@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* main - the brain
-* Return: 0
-*/
+ * main - the brain
+ * Return: 0
+ */
 
 int main(void)
 {
@@ -10,5 +10,6 @@ int main(void)
 
 	i = 0;
 	positive_or_negative(i);
+
 	return (0);
 }
