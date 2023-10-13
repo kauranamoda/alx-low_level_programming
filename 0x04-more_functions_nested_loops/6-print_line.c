@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_line - the brain behind printing lines
- * @n: number of times the _ is printed
- *
- * Return: void
- */
+* print_line - the func responsible for printing lines
+* @n: number of times the _ is printed
+*
+* Return: void
+*/
 
 
 void print_line(int n)
@@ -17,4 +17,5 @@ void print_line(int n)
 		_putchar('_');
 	}
 	_putchar('\n');
-}i
+}
+
